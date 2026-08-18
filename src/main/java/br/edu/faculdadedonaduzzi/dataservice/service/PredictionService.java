@@ -5,7 +5,7 @@ import java.util.Random;
 
 @Service // Essencial para registrar o Bean
 public class PredictionService {
-    // método de predição, ele recebe uma customerId e o montate da transação
+    //metodo de predição, ele recebe uma customerId e o montate da transação
     public double calculateFraudRisk(String customerId,
                                      double transactionAmount) {
         System.out.println("Processando dados do cliente: " + customerId);
